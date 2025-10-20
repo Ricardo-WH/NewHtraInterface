@@ -1,0 +1,9 @@
+#Points	1
+#TemperatureNumber	1
+#Temperature_0	3000
+#Frequency
+30000000.00
+#QDCQGain_3000
+1
+#QDCPhaseComp_3000
+0
