@@ -1,4 +1,4 @@
-#pragma once
+﻿#pragma once
 #include "htra_api.h"
 #include "../inc/harogic_revicer.h"
 

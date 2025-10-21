@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 #include "htra_api.h"
 #include "../inc/harogic_revicer.h"
 #include "../inc/htrainterface.hpp"
@@ -24,7 +24,7 @@ int main()
 	//deviceClk.refClkFreq = 8e6;
 	deviceClk.refClkSrc = ReferenceClockSource_External;
 
-	// ¼ÙÉèÎÒÖ»Åäfreq£¬ÎÒ»¹ĞèÒªÆäËû²ÎÊıµÄÄ¬ÈÏÖµ
+	// å‡è®¾æˆ‘åªé…freqï¼Œæˆ‘è¿˜éœ€è¦å…¶ä»–å‚æ•°çš„é»˜è®¤å€¼
 	revicer.setDeviceClock(&device, &deviceClk, &deviceClk_o);
 	//revicer.activeDevice(&device);
 	//revicer.getConfiguationInfo()

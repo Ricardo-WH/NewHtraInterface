@@ -1,6 +1,6 @@
-#include "inc/htraInterface.hpp"
+ï»¿#include "inc/htraInterface.hpp"
 
-/* °ÑÓÃ»§Éè¶¨µÄÉè±¸Ê¼ÖÕÓ³Éä¸øIQS½á¹¹Ìå  */
+/* æŠŠç”¨æˆ·è®¾å®šçš„è®¾å¤‡å§‹ç»ˆæ˜ å°„ç»™IQSç»“æ„ä½“  */
 void absReciver::mapDeviceClock_IQS(IQS_Profile_TypeDef* IQS_Profile, DeviceClock_TypeDef* deviceClk)
 {
 	//IQS_Profile->ReferenceClockFrequency = deviceClk->refClkFreq;
@@ -10,7 +10,7 @@ void absReciver::mapDeviceClock_IQS(IQS_Profile_TypeDef* IQS_Profile, DeviceCloc
 	//IQS_Profile->SystemClockSource = deviceClk->sysClkSrc;
 }
 
-// ¿ÉÒÔÖ±½ÓÓ³Éä½øÈ¥£¬ÏŞÖµ»ØĞ´ÓÃÁíÒ»Ìõº¯Êı
+// å¯ä»¥ç›´æ¥æ˜ å°„è¿›å»ï¼Œé™å€¼å›å†™ç”¨å¦ä¸€æ¡å‡½æ•°
 void absReciver::setDeviceClock(void** device, DeviceClock_TypeDef* deviceClk, DeviceClock_TypeDef* deviceClk_o)
 {
 	int status = -1;
