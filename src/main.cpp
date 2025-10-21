@@ -17,6 +17,13 @@ int main()
 
 	std::cout << status << std::endl;
 
+
+	// 初始化
+
+
+	// 配置
+
+
 	absReciver revicer(&device);
 
 	DeviceClock_TypeDef deviceClk, deviceClk_o;
